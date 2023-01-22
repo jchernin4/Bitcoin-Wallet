@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+}
+
+application {
+    mainClassName = 'BitcoinWallet.Driver'
+}
